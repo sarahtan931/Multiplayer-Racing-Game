@@ -432,6 +432,7 @@
 "Assets/Racing Starter Kit/Assets/Scripts/RaceFinish.cs"
 "Assets/Racing Starter Kit/Assets/Scripts/TimeScript.cs"
 "Assets/Racing Starter Kit/Assets/Scripts/UnfreezePos.cs"
+"Assets/Scripts/CameraController.cs"
 -langversion:9.0
 
 /deterministic
