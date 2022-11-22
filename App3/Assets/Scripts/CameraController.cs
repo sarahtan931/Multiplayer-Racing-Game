@@ -19,6 +19,6 @@ public class CameraController : MonoBehaviour
     {
         // Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
         transform.position = player.transform.position + new Vector3(0, 5, -7);
-      //  transform.rotation = Quaternion.Euler(130, 0, 0);
+        //transform.rotation = player.transform.rotation;
     }
 }
