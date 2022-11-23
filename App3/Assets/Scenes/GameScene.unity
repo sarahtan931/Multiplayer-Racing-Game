@@ -17611,6 +17611,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
         type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 716839730}
+    - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
+        type: 3}
       propertyPath: motorForce
       value: 1500
       objectReference: {fileID: 0}

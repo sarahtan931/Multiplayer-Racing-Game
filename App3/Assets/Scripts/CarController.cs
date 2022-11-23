@@ -11,6 +11,10 @@ public class CarController : MonoBehaviour
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
 
+    public HealthBar healthBar;
+    public int maxHealth = 100;
+    public int currentHealth;
+
     private float horizontalInput;
     private float verticalInput;
     private float currentSteerAngle;
@@ -31,12 +35,20 @@ public class CarController : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            currentHealth = maxHealth;
+            healthBar.SetMaxHealth(maxHealth);
             DontDestroyOnLoad(this.gameObject);
         }
         else
         {
             Destroy(this.gameObject);
         }
+    }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
     }
 
     private void FixedUpdate()
