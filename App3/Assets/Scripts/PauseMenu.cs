@@ -41,7 +41,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         //TODO: Load scene on restart
-       // SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
         isPaused = false;
       //  audio.Play();
     }

@@ -12,7 +12,7 @@ public class CarController : MonoBehaviour
     private const string VERTICAL = "Vertical";
 
     public HealthBar healthBar;
-    public int maxHealth = 100;
+    public int maxHealth = 10;
     public int currentHealth;
 
     private float horizontalInput;
@@ -20,6 +20,8 @@ public class CarController : MonoBehaviour
     private float currentSteerAngle;
     private float currentbreakForce;
     private bool isBreaking;
+
+    [SerializeField] private Transform respawnPoint;
 
     [SerializeField] private float motorForce;
     [SerializeField] private float breakForce;
@@ -87,5 +89,13 @@ public class CarController : MonoBehaviour
         currentSteerAngle = maxSteerAngle * horizontalInput;
         frontLeftWheelCollider.steerAngle = currentSteerAngle;
         frontRightWheelCollider.steerAngle = currentSteerAngle;
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Pylon")
+        { 
+            TakeDamage(1);
+        }
     }
 }
