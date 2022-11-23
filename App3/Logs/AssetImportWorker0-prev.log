@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.9f1 (ad3870b89536)
-Branch:                  2021.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 13.0.1 (Build 22A400)
-Darwin version:          22.1.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16077 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/sarahtan/Documents/Github/App3/App3
+C:/Users/asama/Documents/Github/App3/App3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60190
-Successfully changed project path to: /Users/sarahtan/Documents/Github/App3/App3
-/Users/sarahtan/Documents/Github/App3/App3
+52303
+Successfully changed project path to: C:/Users/asama/Documents/Github/App3/App3
+C:/Users/asama/Documents/Github/App3/App3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,207 +47,389 @@ Successfully changed project path to: /Users/sarahtan/Documents/Github/App3/App3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 71.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/sarahtan/Documents/Github/App3/App3/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asama/Documents/Github/App3/App3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Microsoft Basic Render Driver (ID=0x8c)
+    Vendor:   Microsoft
+    VRAM:     8038 MB
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.005235 seconds.
-Native extension for LinuxStandalone target not found
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002718 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.503 seconds
+- Completed reload, in  0.493 seconds
 Domain Reload Profiling:
-	ReloadAssembly (503ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (493ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (362ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (353ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (76ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (56ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002669 seconds.
+Registered in 0.004460 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/sarahtan/Documents/Github/App3/App3/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/sarahtan/Documents/Github/App3/App3/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for LinuxStandalone target not found
+Symbol file LoadedFromMemory doesn't match image C:\Users\asama\Documents\Github\App3\App3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\asama\Documents\Github\App3\App3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
+- Completed reload, in  0.867 seconds
 Domain Reload Profiling:
-	ReloadAssembly (616ms)
-		BeginReloadAssembly (44ms)
+	ReloadAssembly (867ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (9ms)
-		EndReloadAssembly (506ms)
-			LoadAssemblies (53ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (242ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3461 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (85.1 KB). Loaded Objects now: 3936.
-Memory consumption went from 111.8 MB to 111.8 MB.
-Total: 2.476541 ms (FindLiveObjects: 0.141958 ms CreateObjectMapping: 0.043084 ms MarkObjects: 2.207791 ms  DeleteObjects: 0.082833 ms)
+Unloading 3468 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.3 KB). Loaded Objects now: 3943.
+Memory consumption went from 133.1 MB to 133.0 MB.
+Total: 4.322400 ms (FindLiveObjects: 0.250300 ms CreateObjectMapping: 0.130000 ms MarkObjects: 3.796800 ms  DeleteObjects: 0.144300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 92724.674352 seconds.
-  path: Assets/Heart.png
-  artifactKey: Guid(64a68e9caad094d3a9c5915acbaed606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Heart.png using Guid(64a68e9caad094d3a9c5915acbaed606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18cb0dc7ca9e6f7e3a266273cdd321f') in 0.594796 seconds 
+  Time since last request: 833018.700602 seconds.
+  path: Assets/Racing Starter Kit/Assets
+  artifactKey: Guid(b655e471f9a6e8348977f5b4b380e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets using Guid(b655e471f9a6e8348977f5b4b380e747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c58198af23f7bac9b5f7b448e8fa951') in 0.019173 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.812224 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(5125a35ffcf28468a89ff6f51a70dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(5125a35ffcf28468a89ff6f51a70dfc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956fb041c8088380160d0da60468da5b') in 0.000577 seconds 
+  Time since last request: 1.039010 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment
+  artifactKey: Guid(5af48e1dfd3d8ce49a4943ff9bcde658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment using Guid(5af48e1dfd3d8ce49a4943ff9bcde658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41907798e352bc02a67fb7cd5793fd8') in 0.022391 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.685070 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png
-  artifactKey: Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png using Guid(eb5f6e2757c821940b69cf1456f7865a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737f8f177faf2f1239ab29570cab0aea') in 0.033385 seconds 
+  Time since last request: 3.097562 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models
+  artifactKey: Guid(37fa5e40d86633740b4e44be36dea683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models using Guid(37fa5e40d86633740b4e44be36dea683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f90303b2b463fccd32a542358f44d8') in 0.071093 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png
-  artifactKey: Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png using Guid(827c9cd4a3943534f909ac6473e17288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b208c6438ddc99e344f4d627a7a4bb8') in 0.008973 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/pylon.fbx
+  artifactKey: Guid(6a522278579bc19459fc5500650041f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/pylon.fbx using Guid(6a522278579bc19459fc5500650041f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08457c65dd33048af1fb40fd0af05a43') in 0.550685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadPitGarage.fbx
+  artifactKey: Guid(c4b4babdbaad31d45b0c97d767923b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadPitGarage.fbx using Guid(c4b4babdbaad31d45b0c97d767923b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff04bbb704ede49eef9ae1695e5cbed') in 0.050971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/fenceCurved.fbx
+  artifactKey: Guid(d34b08114cbb6f3478f12c49cda434ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/fenceCurved.fbx using Guid(d34b08114cbb6f3478f12c49cda434ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5535e5e9928af86ce6011e1b30feb607') in 0.074649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011433 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/pitsOfficeCorner.fbx
+  artifactKey: Guid(412179969f13bd143861f332f302562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/pitsOfficeCorner.fbx using Guid(412179969f13bd143861f332f302562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e890edf1380d537254977abdb9893bd6') in 0.051055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/radarEquipment.fbx
+  artifactKey: Guid(de5eb96a1b5dc6d46a950fe0763dd50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/radarEquipment.fbx using Guid(de5eb96a1b5dc6d46a950fe0763dd50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7445debf3673bf6e78abe4c490bcce41') in 0.073394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/grandStand.fbx
+  artifactKey: Guid(3c5dc340b0d2743499b093a9b5669914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/grandStand.fbx using Guid(3c5dc340b0d2743499b093a9b5669914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f78e17f35d65a920271b4f9b1af7bd') in 0.046489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/grandStandCovered.fbx
+  artifactKey: Guid(841c5d3ec4b663647a7b2997a90e3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/grandStandCovered.fbx using Guid(841c5d3ec4b663647a7b2997a90e3f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8fc5f0348ee41f9a133ba813bb15bf') in 0.053939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/tentClosed.fbx
+  artifactKey: Guid(b4c17b454c0900040b1154f8f370170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/tentClosed.fbx using Guid(b4c17b454c0900040b1154f8f370170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d503f6b6c54f051b8a5f5cb38f9002') in 0.079647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadStraightBridgeStart.fbx
+  artifactKey: Guid(878a305dbc97fca4ea57478c49105d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadStraightBridgeStart.fbx using Guid(878a305dbc97fca4ea57478c49105d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e24fd5361817d1748c98987492a8f74') in 0.079754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadCorner.fbx
+  artifactKey: Guid(2e11ef13a71b45d4fa53a024b2d2513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadCorner.fbx using Guid(2e11ef13a71b45d4fa53a024b2d2513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe14c4e6a5f7f2407eb1440abee8475') in 0.143242 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png
-  artifactKey: Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonBrakeOverSprite.png using Guid(5b1a64ea234fb2343b8d0686c51280de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d681057b2a329f3810df932f156f95') in 0.008394 seconds 
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadStartPositions.fbx
+  artifactKey: Guid(092f696abdd54e84b90e9a379da63a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadStartPositions.fbx using Guid(092f696abdd54e84b90e9a379da63a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8cd3f51be4cebcfedc163ca87537df') in 0.065399 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png
-  artifactKey: Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonArrowUpSprite.png using Guid(4db017495c69e8140a56a0e2b669e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea18eb53afc30d215346a86337dec471') in 0.010841 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/overheadRoundColored.fbx
+  artifactKey: Guid(4f403f0def55c3c4485deba969171a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/overheadRoundColored.fbx using Guid(4f403f0def55c3c4485deba969171a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bf0fea95af6c610b214ca32596087f') in 0.057327 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.439836 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
-  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80230ecd74e0eae634ca8a1bbf48d3b3') in 0.017310 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/tent.fbx
+  artifactKey: Guid(d6ff6c3e7c835094fa2f3582bd965acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/tent.fbx using Guid(d6ff6c3e7c835094fa2f3582bd965acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b990103f6a3112c2add559a1767eb5ce') in 0.030172 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040179 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
-  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914adea270d14231ae39b46a44d0ae3a') in 0.008773 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/tentClosedLong.fbx
+  artifactKey: Guid(dcdd573934667cc4dbddd380630fad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/tentClosedLong.fbx using Guid(dcdd573934667cc4dbddd380630fad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94be0a700c1e391dc6a7085bc045c1') in 0.075223 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066936 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
-  artifactKey: Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png using Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac4c14c92960be758c63db12c014a5a') in 0.008330 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/tentLong.fbx
+  artifactKey: Guid(7c94775b4a1f0b148a39bd994e93cae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/tentLong.fbx using Guid(7c94775b4a1f0b148a39bd994e93cae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9bf14219bce9689ea86ddff3ab0457') in 0.066435 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.048095 seconds.
-  path: Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/TouchpadSprite.png
-  artifactKey: Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Racing Starter Kit/Assets/MainAssets/CrossPlatformInput/Sprites/TouchpadSprite.png using Guid(e4f1fee3de32377429fd1348fae62b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d02e44c4955e8f10c00dd1e7f18c783') in 0.009724 seconds 
+  Time since last request: 0.000073 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadHalfCircle.fbx
+  artifactKey: Guid(9c370fb783a206949883775f811b7b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadHalfCircle.fbx using Guid(9c370fb783a206949883775f811b7b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e52ca261448bf278c364c0698b38cf2') in 0.038985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 88.309669 seconds.
-  path: Assets/Sprites/Bar.png
-  artifactKey: Guid(98ae59cd187434ca6bdb82c45726215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bar.png using Guid(98ae59cd187434ca6bdb82c45726215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8959769a0951495dca9b399bda3dc728') in 0.004353 seconds 
+  Time since last request: 0.000093 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/rail.fbx
+  artifactKey: Guid(48d493f70e7c41e43be6269cdafa780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/rail.fbx using Guid(48d493f70e7c41e43be6269cdafa780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613148e3ac259e7f2e43911de349bfc9') in 0.053610 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.198198 seconds.
-  path: Assets/Sprites/Heart.png
-  artifactKey: Guid(64a68e9caad094d3a9c5915acbaed606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Heart.png using Guid(64a68e9caad094d3a9c5915acbaed606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d1e1dc758bf4ed0aed22768f5fdbb0') in 0.006179 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadStraight.fbx
+  artifactKey: Guid(cc02ad7ca6ce5d749911b558119a1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadStraight.fbx using Guid(cc02ad7ca6ce5d749911b558119a1706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d973f0185a855de1c10bccab7c1882') in 0.040122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.672064 seconds.
-  path: Assets/Sprites/Bar.png
-  artifactKey: Guid(98ae59cd187434ca6bdb82c45726215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bar.png using Guid(98ae59cd187434ca6bdb82c45726215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc6254f8f5643a97cc525f372e2e3dd') in 0.005790 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000024 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadStraightBridge.fbx
+  artifactKey: Guid(42b0a98dc3449b541a42712091b078c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadStraightBridge.fbx using Guid(42b0a98dc3449b541a42712091b078c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97594e15fd1c4c8002745f970957c557') in 0.068342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/overheadLights.fbx
+  artifactKey: Guid(6c4407d4f1043ff4ebb0d585625846e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/overheadLights.fbx using Guid(6c4407d4f1043ff4ebb0d585625846e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b099ee1c0f28f0c1ae0ddd21190c6e') in 0.069445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/roadCorner180.fbx
+  artifactKey: Guid(24782a9dee1e5714499bae1cd8c2ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/roadCorner180.fbx using Guid(24782a9dee1e5714499bae1cd8c2ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3435f83af67b5ce6045aad0bd7acaab4') in 0.110132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Racing Starter Kit/Assets/Environment/Models/pitsGarageCorner.fbx
+  artifactKey: Guid(743858450b6f31a45a4dc600e3697e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Assets/Environment/Models/pitsGarageCorner.fbx using Guid(743858450b6f31a45a4dc600e3697e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26e1fd231be2bc19c6a829a97a0c3f1') in 0.049712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 404.507746 seconds.
+  path: Assets/Racing Starter Kit/Scenes/_TerrainAutoUpgrade/layer_grass-texture(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.630,0.000.terrainlayer
+  artifactKey: Guid(66cfc0c4541a5d543b21a3aa9ee98388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Scenes/_TerrainAutoUpgrade/layer_grass-texture(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.630,0.000.terrainlayer using Guid(66cfc0c4541a5d543b21a3aa9ee98388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0b7190dd86c16f25bf5d8a4c52b88d') in 0.111581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.850602 seconds.
+  path: Assets/Racing Starter Kit/Scenes/Terrains/Tracks Terrain.asset
+  artifactKey: Guid(c32aa27fec5cc69478e5ba9c20a5f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Scenes/Terrains/Tracks Terrain.asset using Guid(c32aa27fec5cc69478e5ba9c20a5f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Tree1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Bush3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '8e2c34bbd8a6caa884e4d2ae9b38f0be') in 0.228488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422475 seconds.
+  path: Assets/Racing Starter Kit/Scenes/Track01/LightingData.asset
+  artifactKey: Guid(cb27e61bd0a3a0e48a1456ba4d387b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Scenes/Track01/LightingData.asset using Guid(cb27e61bd0a3a0e48a1456ba4d387b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is inconsistent because 3 files out of 14 are missing. Please use Generate Lighting to rebuild the lighting data.
+ -> (artifact id: 'db82978b4239cdc09b191d908c4050e6') in 0.083418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Racing Starter Kit/Scenes/Track01/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(7ca332bd96d35cf4bb3cb11bb1ad3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Scenes/Track01/Lightmap-0_comp_shadowmask.png using Guid(7ca332bd96d35cf4bb3cb11bb1ad3f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb973855bfebf6af0403f9760526482') in 0.198036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Racing Starter Kit/Scenes/Track01/ReflectionProbe-0.exr
+  artifactKey: Guid(6153aaeacecb3914f9e30816b55c0f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Starter Kit/Scenes/Track01/ReflectionProbe-0.exr using Guid(6153aaeacecb3914f9e30816b55c0f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5638cb25c123e8974342d858b224b') in 0.142403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.961041 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.011216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.137723 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(86287979b8f68914ab4c102940d6fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(86287979b8f68914ab4c102940d6fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfdb72c00a5eff0c861178aff82e96c') in 0.009728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 342.852674 seconds.
+  path: Assets/Scenes/OnePlayerMain.unity
+  artifactKey: Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OnePlayerMain.unity using Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961b381f54f8c9ccd29af90b4d8be785') in 0.040508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 329.685117 seconds.
+  path: Assets/Scenes/Store.unity
+  artifactKey: Guid(40690c4438e36e648a3bf464c0426c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Store.unity using Guid(40690c4438e36e648a3bf464c0426c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01435fc069a3cdf3634c20e8abe32762') in 0.095910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.431622 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(86287979b8f68914ab4c102940d6fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(86287979b8f68914ab4c102940d6fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0735d1e88db3e432e40ade3fddbb64e') in 0.046320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.076064 seconds.
+  path: Assets/Scenes/OnePlayerMain.unity
+  artifactKey: Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OnePlayerMain.unity using Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ac89891cfe93344cb1dd2fb7483b63') in 0.016658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.280315 seconds.
+  path: Assets/Scenes/OnePlayerLeaderboard.unity
+  artifactKey: Guid(391c8626d8501e547bf774600e6fab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OnePlayerLeaderboard.unity using Guid(391c8626d8501e547bf774600e6fab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ff038b3740a2fb68c87ffc7db46b88') in 0.058209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.736672 seconds.
+  path: Assets/Scenes/OnePlayerMain.unity
+  artifactKey: Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OnePlayerMain.unity using Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8f3882ea9acd30f12121a5fdc7df10') in 0.023528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652197 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23ede9e8955f1e97aa2547beca3e661') in 0.116487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.655629 seconds.
+  path: Assets/Scenes/Store.unity
+  artifactKey: Guid(40690c4438e36e648a3bf464c0426c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Store.unity using Guid(40690c4438e36e648a3bf464c0426c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47340e24c2f0c0e36189e2fc46938fb2') in 0.046792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 457.438847 seconds.
+  path: Assets/Scenes/OnePlayerMain 1.unity
+  artifactKey: Guid(bc88444001dc5344e9b73cd0a600e48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OnePlayerMain 1.unity using Guid(bc88444001dc5344e9b73cd0a600e48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3000dd75de893153492aa37653ffa6c2') in 0.046620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.280441 seconds.
+  path: Assets/Scenes/TwoPlayerMain.unity
+  artifactKey: Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TwoPlayerMain.unity using Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec93054fcc50ac8c612aee38b96e87c') in 0.056076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 207.611962 seconds.
+  path: Assets/Scenes/TwoPlayerMain.unity
+  artifactKey: Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TwoPlayerMain.unity using Guid(127422fa69c99624aaea5a7a8f1b00ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93385b1f280f12ba6d911313c5a908fe') in 0.020995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.860795 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(f826d3713a6c3c54995824b486043b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(f826d3713a6c3c54995824b486043b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f74bd1a0c63aacd996d3eb2fd5bbcc') in 0.026375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.061869 seconds.
+  path: Assets/Scenes/TwoPlayerLeaderboard.unity
+  artifactKey: Guid(f826d3713a6c3c54995824b486043b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TwoPlayerLeaderboard.unity using Guid(f826d3713a6c3c54995824b486043b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cef57af54a6353025c09b499faceb5b') in 0.024119 seconds 

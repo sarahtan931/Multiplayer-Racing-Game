@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Real-time Positioning System/Scenes/SampleScene.unity
+    path: Assets/Racing Starter Kit/Scenes/SampleScene.unity
     guid: adc28652a668a9646b0352d63f41b808
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 86287979b8f68914ab4c102940d6fdf8
+  - enabled: 1
+    path: Assets/Scenes/OnePlayerLeaderboard.unity
+    guid: 391c8626d8501e547bf774600e6fab76
+  - enabled: 1
+    path: Assets/Scenes/OnePlayerMain.unity
+    guid: bc88444001dc5344e9b73cd0a600e48f
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: 40690c4438e36e648a3bf464c0426c90
+  - enabled: 1
+    path: Assets/Scenes/TwoPlayerLeaderboard.unity
+    guid: f826d3713a6c3c54995824b486043b86
+  - enabled: 1
+    path: Assets/Scenes/TwoPlayerMain.unity
+    guid: 127422fa69c99624aaea5a7a8f1b00ef
   m_configObjects: {}
