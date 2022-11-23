@@ -22,6 +22,7 @@ public class CarController : MonoBehaviour
     private bool isBreaking;
 
     [SerializeField] private Transform respawnPoint;
+    [SerializeField] private GameObject player;
 
     [SerializeField] private float motorForce;
     [SerializeField] private float breakForce;
@@ -47,10 +48,22 @@ public class CarController : MonoBehaviour
         }
     }
 
+    public void resetHealth()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetHealth(currentHealth);
+    }
+
     void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            player.transform.position = respawnPoint.transform.position;
+            player.transform.rotation = Quaternion.Euler(0f, 1f, 0f);
+            resetHealth();
+        }
     }
 
     private void FixedUpdate()

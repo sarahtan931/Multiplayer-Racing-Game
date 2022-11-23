@@ -7,7 +7,12 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool isPaused = false;
     public GameObject pauseMenu;
-  //  public new AudioSource audio;
+    public CarController carController;
+
+    [SerializeField] private Transform respawnPoint;
+    [SerializeField] private GameObject player;
+
+    //  public new AudioSource audio;
 
     private void Update()
     {
@@ -39,11 +44,13 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
+        pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        //TODO: Load scene on restart
-        SceneManager.LoadScene(0);
+        player.transform.position = respawnPoint.transform.position;
+        player.transform.rotation = Quaternion.Euler(0f, 1f, 0f);
+        carController.resetHealth();
         isPaused = false;
-      //  audio.Play();
+        //  audio.Play();
     }
 
     void Pause()

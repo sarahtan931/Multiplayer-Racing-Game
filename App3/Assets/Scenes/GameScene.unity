@@ -870,17 +870,17 @@ PrefabInstance:
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
@@ -2079,6 +2079,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3272886051202894198}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &266966612 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 3272886051202894198}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266966611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d4a8ccfdeaa40f48809794c65ebf90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &266966614 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 3272886050140403780, guid: 187f6a0378b0f4357bae8de8d3c477cd,
@@ -3214,6 +3226,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 730685759}
+  carController: {fileID: 266966612}
+  respawnPoint: {fileID: 114435633}
+  player: {fileID: 266966611}
 --- !u!1001 &441994816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13057,7 +13072,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1743907423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 419624211}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1743907423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17761,17 +17788,17 @@ PrefabInstance:
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.2
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2960982685038898568, guid: 85c7ef828ee344b2fb2f2e8519f3d349,
         type: 3}
@@ -17847,6 +17874,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 266966611}
     - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
         type: 3}
       propertyPath: healthBar
