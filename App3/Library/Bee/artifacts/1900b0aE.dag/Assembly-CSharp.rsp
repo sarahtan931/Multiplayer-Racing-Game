@@ -416,6 +416,7 @@
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/ChickenWalk.cs"
 "Assets/Scripts/HealthBar.cs"
+"Assets/Scripts/Laps.cs"
 "Assets/Scripts/MainMenuButtons.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/RedirectMainMenu.cs"
