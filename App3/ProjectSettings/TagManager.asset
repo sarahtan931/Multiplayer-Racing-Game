@@ -9,6 +9,9 @@ TagManager:
   - AICarCollider
   - Fire
   - Pylon
+  - Chicken
+  - Chick
+  - Tree
   layers:
   - Default
   - TransparentFX

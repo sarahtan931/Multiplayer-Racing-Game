@@ -110,5 +110,17 @@ public class CarController : MonoBehaviour
         { 
             TakeDamage(1);
         }
+        if (collision.gameObject.tag == "Chicken")
+        {
+            TakeDamage(10);
+        }
+        if (collision.gameObject.tag == "Chick")
+        {
+            TakeDamage(5);
+        }
+        if (collision.gameObject.tag == "Tree")
+        {
+            TakeDamage(2);
+        }
     }
 }
