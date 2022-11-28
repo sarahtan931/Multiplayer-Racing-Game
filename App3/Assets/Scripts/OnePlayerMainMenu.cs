@@ -25,7 +25,16 @@ public class OnePlayerMainMenu : MonoBehaviour
 
     public void LevelTwo()
     {
-        
+        PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
+        if (nameInput.text.Length < 3 || nameInput.text.Length > 15)
+        {
+            Debug.Log("Name must be between 3 and 15 characters");
+        }
+        else
+        {
+            PlayerName.finalPlayerName = nameInput.text;
+            SceneManager.LoadScene("GameScene2");
+        }
     }
 
     public void Store()
