@@ -1,1 +1,12 @@
-{}
+{
+    "highscores": [
+        {
+            "entryName": "Leonard",
+            "entryScore": 176.0
+        },
+        {
+            "entryName": "Graeme",
+            "entryScore": 178.0
+        }
+    ]
+}

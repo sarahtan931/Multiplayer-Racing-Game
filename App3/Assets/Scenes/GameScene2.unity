@@ -12401,7 +12401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lapLine: {fileID: 1993656512}
   lapText: {fileID: 124521086}
-  lapTotal: 2
+  lapTotal: 1
 --- !u!65 &1993656514
 BoxCollider:
   m_ObjectHideFlags: 0

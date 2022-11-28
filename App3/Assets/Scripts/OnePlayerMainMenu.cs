@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 public class OnePlayerMainMenu : MonoBehaviour
 {
     public TMP_InputField nameInput;
+    public void Start()
+    {
+        PlayerName.gameComplete = false;
+    }
 
     public void LevelOne()
     {
