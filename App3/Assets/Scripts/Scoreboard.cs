@@ -38,7 +38,7 @@ namespace App3.Scoreboards
             ScoreboardEntryData newEntryData = new ScoreboardEntryData();
             string username = PlayerName.finalPlayerName;
             newEntryData.entryName = username;
-            var score = (int)Math.Round(TimerScript.timeRemaining, MidpointRounding.AwayFromZero); 
+            var score = (int)Math.Round(TimerScript.timeRemaining, MidpointRounding.AwayFromZero);
             if (score != 0)
             {
                 newEntryData.entryScore = score;

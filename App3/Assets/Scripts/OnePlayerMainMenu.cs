@@ -46,4 +46,9 @@ public class OnePlayerMainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("OnePlayerLeaderboard");
     }
+
+    public void Leaderboard2()
+    {
+        SceneManager.LoadScene("OnePlayerLeaderboard2");
+    }
 }

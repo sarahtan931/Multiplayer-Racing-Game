@@ -427,6 +427,7 @@
 "Assets/Scripts/PlayerName.cs"
 "Assets/Scripts/RedirectMainMenu.cs"
 "Assets/Scripts/Scoreboard.cs"
+"Assets/Scripts/Scoreboard2.cs"
 "Assets/Scripts/ScoreboardEntryData.cs"
 "Assets/Scripts/ScoreboardEntryUI.cs"
 "Assets/Scripts/ScoreboardSaveData.cs"

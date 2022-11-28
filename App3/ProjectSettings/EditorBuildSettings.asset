@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene2.unity
     guid: 81a765ef5c50a45f9933820d4ce38d33
+  - enabled: 1
+    path: Assets/Scenes/OnePlayerLeaderboard2.unity
+    guid: 23c5dae0f62254eefae2343344365fb0
   m_configObjects: {}

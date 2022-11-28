@@ -41,7 +41,10 @@ public class TimerScript : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
                 PlayerName.gameComplete = true;
-                SceneManager.LoadScene("OnePlayerLeaderboard");
+                if (SceneManager.GetActiveScene().name == "GameScene")
+                {
+                    SceneManager.LoadScene("OnePlayerLeaderboard");
+                }
             }
         }
     }

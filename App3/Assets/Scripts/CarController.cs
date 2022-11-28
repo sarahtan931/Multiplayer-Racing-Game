@@ -48,6 +48,7 @@ public class CarController : MonoBehaviour
             Destroy(this.gameObject);
         }
         PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.SetString("lastLevelString", SceneManager.GetActiveScene().name);
 
     }
 
