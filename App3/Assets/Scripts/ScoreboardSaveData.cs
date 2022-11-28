@@ -1,10 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using App2.Scoreboards;
+using App3.Scoreboards;
 using UnityEngine;
 
-namespace App2.Scoreboards
+namespace App3.Scoreboards
 {
     [Serializable]
     public class ScoreboardSaveData

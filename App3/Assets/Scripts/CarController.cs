@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // referenced from https://www.youtube.com/watch?v=Z4HA8zJhGEk&t=17s
 public class CarController : MonoBehaviour
@@ -46,6 +47,8 @@ public class CarController : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
+
     }
 
     public void resetHealth()

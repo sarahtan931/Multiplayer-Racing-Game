@@ -11,7 +11,6 @@ public class MainMenuButtons : MonoBehaviour
     private string twoplayer = "TwoPlayerMain";
     void Start()
     {
-        
     }
 
     // Update is called once per frame

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-namespace App2.Scoreboards
+namespace App3.Scoreboards
 {
 
     public class ScoreboardEntryUI : MonoBehaviour

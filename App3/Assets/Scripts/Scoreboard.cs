@@ -4,8 +4,9 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
-namespace App2.Scoreboards
+namespace App3.Scoreboards
 {
     public class Scoreboard : MonoBehaviour
     {
@@ -14,7 +15,6 @@ namespace App2.Scoreboards
         [SerializeField] private GameObject scoreBoardEntryObject = null;
         public GameObject LeaderboardInput;
         public Button submitButton;
-        public TMP_InputField submitName;
 
 
         private string savePath => $"{Directory.GetCurrentDirectory()}/highscores.json";
@@ -23,14 +23,22 @@ namespace App2.Scoreboards
         {
             ScoreboardSaveData savedScores = GetSavedScores();
             UpdateUI(savedScores);
+            if (PlayerName.gameComplete == false)
+            {
+                LeaderboardInput.SetActive(false);
+            }
+            else
+            {
+                LeaderboardInput.SetActive(true);
+            }
         }
 
         public void AddEntryFromUI()
         {
             ScoreboardEntryData newEntryData = new ScoreboardEntryData();
-            string username = submitName.text;
+            string username = PlayerName.finalPlayerName;
             newEntryData.entryName = username;
-            var score = PlayerPrefs.GetInt("time");
+            var score = (int)Math.Round(TimerScript.timeRemaining, MidpointRounding.AwayFromZero); 
             if (score != 0)
             {
                 newEntryData.entryScore = score;
