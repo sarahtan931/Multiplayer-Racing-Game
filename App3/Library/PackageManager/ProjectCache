@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638048401137637551
-    m_Hash: 2584840489
+      ticks: 638049060887955564
+    m_Hash: 1905809654
   m_LockFileStatus:
     m_FilePath: C:/Users/asama/Documents/Github/Multiplayer-Racing-Game/App3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638048401137678180
-    m_Hash: 368091525
+      ticks: 638049060888347703
+    m_Hash: 2812667354
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,65 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/asama/Documents/Github/Multiplayer-Racing-Game/App3/Packages
 m_EditorVersion: 2021.3.9f1 (ad3870b89536)
 m_ResolvedPackages:
+- packageId: com.lootlocker.lootlockersdk@https://github.com/LootLocker/unity-sdk.git
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.40
+  source: 5
+  resolvedPath: C:\Users\asama\Documents\Github\Multiplayer-Racing-Game\App3\Library\PackageCache\com.lootlocker.lootlockersdk@8861e95c31
+  assetPath: Packages/com.lootlocker.lootlockersdk
+  name: com.lootlocker.lootlockersdk
+  displayName: LootLocker
+  author:
+    name: LootLocker
+    email: hello@lootlocker.com
+    url: https://lootlocker.com
+  category: 
+  type: tool
+  description: "LootLocker is a game backend-as-a-service with plug and play tools
+    to upgrade your game and give your players the best experience possible. Designed
+    for teams of all shapes and sizes, on mobile, PC and console. From solo developers,
+    indie teams, AAA studios, and publishers. Built with cross-platform in mind.\n\n\u25AA
+    Manage your game\nSave time and upgrade your game with leaderboards, progression,
+    and more. Completely off-the-shelf features, built to work with any game and
+    platform.\n\n\u25AA Manage your content\nTake charge of your game's content on
+    all platforms, in one place. Sort, edit and manage everything, from cosmetics
+    to currencies, UGC to DLC. Without breaking a sweat.\n\n\u25AA Manage your players\nStore
+    your players' data together in one place. Access their profile and friends list
+    cross-platform. Manage reports, messages, refunds and gifts to keep them hooked.\n"
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  resolvedDependencies:
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.lootlocker.com/
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.17.2
   testable: 0
   isDirectDependency: 1
@@ -3154,63 +3213,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.4.2
     nextVersion: 
-- packageId: com.unity.settings-manager@1.0.3
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.3
-  source: 1
-  resolvedPath: C:\Users\asama\Documents\Github\Multiplayer-Racing-Game\App3\Library\PackageCache\com.unity.settings-manager@1.0.3
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    compatible:
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    verified: 1.0.3
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637300096300000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
-    path: 
-  unityLifecycle:
-    version: 1.0.3
-    nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
@@ -3278,4 +3280,61 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.0.2
+    nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: C:\Users\asama\Documents\Github\Multiplayer-Racing-Game\App3\Library\PackageCache\com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637300096300000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 1.0.3
     nextVersion: 
