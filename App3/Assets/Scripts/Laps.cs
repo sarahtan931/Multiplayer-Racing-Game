@@ -23,6 +23,7 @@ public class Laps : MonoBehaviour
 
             if(lapCount > lapTotal)
             {
+                PlayerName.gameComplete = true;
                 SceneManager.LoadScene("OnePlayerLeaderboard");
             }
         }
