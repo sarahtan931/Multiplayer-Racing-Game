@@ -775,8 +775,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: App2.Scoreboards.Scoreboard, Assembly-CSharp
+      - m_Target: {fileID: 1589625292}
+        m_TargetAssemblyTypeName: App3.Scoreboards.Scoreboard2, Assembly-CSharp
         m_MethodName: AddEntryFromUI
         m_Mode: 1
         m_Arguments:
