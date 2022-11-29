@@ -8,6 +8,8 @@ public class PlayerName : MonoBehaviour
     public static PlayerName instance = null;
     public static string finalPlayerName;
     public static bool gameComplete = false;
+    public static int totalCoins = 0;
+    public static int tempCoins = 0;
 
     // Start is called before the first frame update
     void Awake()

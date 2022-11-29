@@ -28,11 +28,15 @@ public class Laps : MonoBehaviour
                 PlayerName.gameComplete = true;
                 if (SceneManager.GetActiveScene().name == "GameScene")
                 {
+                    PlayerName.totalCoins += PlayerName.tempCoins;
+                    PlayerName.tempCoins = 0;
                     SceneManager.LoadScene("OnePlayerLeaderboard");
                 }
 
                 if (SceneManager.GetActiveScene().name == "GameScene2")
                 {
+                    PlayerName.totalCoins += PlayerName.tempCoins;
+                    PlayerName.tempCoins = 0;
                     SceneManager.LoadScene("OnePlayerLeaderboard2");
                 }
 
