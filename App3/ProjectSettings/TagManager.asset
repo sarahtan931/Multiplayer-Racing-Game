@@ -12,6 +12,9 @@ TagManager:
   - Chicken
   - Chick
   - Tree
+  - TenCoin
+  - FiveCoin
+  - OneCoin
   layers:
   - Default
   - TransparentFX

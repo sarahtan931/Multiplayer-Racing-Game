@@ -1,8 +1,12 @@
 {
     "highscores": [
         {
+            "entryName": "Anusha",
+            "entryScore": 24.0
+        },
+        {
             "entryName": "SarahTan",
-            "entryScore": 60
+            "entryScore": 60.0
         }
     ]
 }

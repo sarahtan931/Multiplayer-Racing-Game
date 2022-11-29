@@ -127,4 +127,23 @@ public class CarController : MonoBehaviour
             TakeDamage(2);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "TenCoin")
+        {
+            PlayerName.tempCoins += 10;
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.tag == "FiveCoin")
+        {
+            PlayerName.tempCoins += 5;
+            Destroy(other.gameObject);
+        }
+        else if (other.gameObject.tag == "OneCoin")
+        {
+            PlayerName.tempCoins += 1;
+            Destroy(other.gameObject);
+        }
+    }
 }
