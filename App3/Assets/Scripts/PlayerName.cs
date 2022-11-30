@@ -10,6 +10,8 @@ public class PlayerName : MonoBehaviour
     public static bool gameComplete = false;
     public static int totalCoins = 0;
     public static int tempCoins = 0;
+    public static bool ownsGold = false;
+    public static bool ownsSilver = false;
 
     // Start is called before the first frame update
     void Awake()

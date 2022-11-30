@@ -23,6 +23,7 @@ public class OnePlayerMainMenu : MonoBehaviour
         {
             PlayerName.finalPlayerName = nameInput.text;
             SceneManager.LoadScene("GameScene");
+            TimerScript.timeRemaining = 180;
         }
         
     }
@@ -38,12 +39,13 @@ public class OnePlayerMainMenu : MonoBehaviour
         {
             PlayerName.finalPlayerName = nameInput.text;
             SceneManager.LoadScene("GameScene2");
+            TimerScript.timeRemaining = 180;
         }
     }
 
     public void Store()
     {
-        
+        SceneManager.LoadScene("Store");
     }
 
     public void Leaderboard()

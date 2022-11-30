@@ -424,6 +424,7 @@
 "Assets/Scripts/OnePlayerMainMenu.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerName.cs"
+"Assets/Scripts/PurchaseScript.cs"
 "Assets/Scripts/RedirectMainMenu.cs"
 "Assets/Scripts/Scoreboard.cs"
 "Assets/Scripts/Scoreboard2.cs"
