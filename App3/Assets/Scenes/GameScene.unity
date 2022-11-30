@@ -315,7 +315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lapLine: {fileID: 12926639}
   lapText: {fileID: 781179881}
-  lapTotal: 2
+  lapTotal: 1
 --- !u!1001 &17263381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18786,14 +18786,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
         type: 3}
+      propertyPath: breakForce
+      value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
+        type: 3}
       propertyPath: motorForce
-      value: 1500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
         type: 3}
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 114435633}
+    - target: {fileID: 3272886050140403779, guid: 187f6a0378b0f4357bae8de8d3c477cd,
+        type: 3}
+      propertyPath: maxSteerAngle
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3272886051192537861, guid: 187f6a0378b0f4357bae8de8d3c477cd,
         type: 3}
       propertyPath: m_RootOrder

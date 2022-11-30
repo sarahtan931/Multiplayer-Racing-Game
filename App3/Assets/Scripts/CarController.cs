@@ -36,20 +36,14 @@ public class CarController : MonoBehaviour
 
     void Start()
     {
-        if (instance == null)
-        {
-            instance = this;
-            currentHealth = maxHealth;
-            healthBar.SetMaxHealth(maxHealth);
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
+        instance = this;
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetString("lastLevelString", SceneManager.GetActiveScene().name);
-
+        player.transform.position = respawnPoint.transform.position;
+        player.transform.rotation = Quaternion.Euler(0f, 1f, 0f);
+        resetHealth();
     }
 
     public void resetHealth()
