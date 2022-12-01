@@ -12,7 +12,6 @@ public class Laps : MonoBehaviour
  
     void Update()
     {
-        Debug.Log("count" + lapCount);
         lapText.text = string.Format("Laps: {0}/{1}", lapCount, lapTotal);
     }
 

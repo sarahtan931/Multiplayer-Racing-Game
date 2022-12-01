@@ -417,12 +417,15 @@
 "Assets/Scripts/CarController.cs"
 "Assets/Scripts/CarSelection.cs"
 "Assets/Scripts/CharacterController.cs"
+"Assets/Scripts/CharacterControllerMultiplayer.cs"
 "Assets/Scripts/ChickenWalk.cs"
 "Assets/Scripts/CoinsDisplay.cs"
 "Assets/Scripts/DashboardNavigate.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/Laps.cs"
 "Assets/Scripts/MainMenuButtons.cs"
+"Assets/Scripts/MultiplayerCarSelection.cs"
+"Assets/Scripts/MultiplayerLevelSelection.cs"
 "Assets/Scripts/OnePlayerMainMenu.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerName.cs"
@@ -436,6 +439,7 @@
 "Assets/Scripts/SelectionView.cs"
 "Assets/Scripts/Speedometer.cs"
 "Assets/Scripts/TimerScript.cs"
+"Assets/Scripts/TwoPlayer.cs"
 -langversion:9.0
 
 /deterministic
