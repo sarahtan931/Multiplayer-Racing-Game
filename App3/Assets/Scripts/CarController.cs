@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 // referenced from https://www.youtube.com/watch?v=Z4HA8zJhGEk&t=17s
 public class CarController : MonoBehaviour
 {
-    public static CarController instance = null;
+
     private const string HORIZONTAL = "Horizontal";
     private const string VERTICAL = "Vertical";
 
@@ -36,7 +36,6 @@ public class CarController : MonoBehaviour
 
     void Start()
     {
-        instance = this;
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);

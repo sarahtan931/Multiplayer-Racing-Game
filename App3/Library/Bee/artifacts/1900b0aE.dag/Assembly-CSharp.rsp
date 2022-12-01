@@ -415,6 +415,8 @@
 "Assets/Racing Starter Kit/Assets/MainAssets/Vehicles/Car/Scripts/WheelEffects.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/CarSelection.cs"
+"Assets/Scripts/CharacterController.cs"
 "Assets/Scripts/ChickenWalk.cs"
 "Assets/Scripts/CoinsDisplay.cs"
 "Assets/Scripts/DashboardNavigate.cs"
@@ -431,6 +433,7 @@
 "Assets/Scripts/ScoreboardEntryData.cs"
 "Assets/Scripts/ScoreboardEntryUI.cs"
 "Assets/Scripts/ScoreboardSaveData.cs"
+"Assets/Scripts/SelectionView.cs"
 "Assets/Scripts/Speedometer.cs"
 "Assets/Scripts/TimerScript.cs"
 -langversion:9.0

@@ -22,7 +22,8 @@ public class OnePlayerMainMenu : MonoBehaviour
         else
         {
             PlayerName.finalPlayerName = nameInput.text;
-            SceneManager.LoadScene("GameScene");
+            PlayerName.levelSelection = 1;
+            SceneManager.LoadScene("PlayerSelection");
             TimerScript.timeRemaining = 180;
         }
         
@@ -38,7 +39,8 @@ public class OnePlayerMainMenu : MonoBehaviour
         else
         {
             PlayerName.finalPlayerName = nameInput.text;
-            SceneManager.LoadScene("GameScene2");
+            PlayerName.levelSelection = 2;
+            SceneManager.LoadScene("PlayerSelection");
             TimerScript.timeRemaining = 180;
         }
     }

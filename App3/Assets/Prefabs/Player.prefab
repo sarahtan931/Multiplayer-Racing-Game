@@ -533,9 +533,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d4a8ccfdeaa40f48809794c65ebf90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  motorForce: 2000
-  breakForce: 3000
-  maxSteerAngle: 30
+  healthBar: {fileID: 0}
+  maxHealth: 50
+  currentHealth: 0
+  respawnPoint: {fileID: 0}
+  player: {fileID: 0}
+  motorForce: 1000
+  breakForce: 2000
+  maxSteerAngle: 20
   frontLeftWheelCollider: {fileID: 3272886050056931948}
   frontRightWheelCollider: {fileID: 3272886049928214301}
   rearLeftWheelCollider: {fileID: 3272886049943972118}
