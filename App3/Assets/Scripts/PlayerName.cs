@@ -12,6 +12,8 @@ public class PlayerName : MonoBehaviour
     public static int tempCoins = 0;
     public static bool ownsGold = false;
     public static bool ownsSilver = false;
+    public static int playerSelection = 0;
+    public static int levelSelection = 0;
 
     // Start is called before the first frame update
     void Awake()

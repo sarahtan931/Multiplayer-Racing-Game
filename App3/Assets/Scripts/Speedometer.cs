@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class Speedometer : MonoBehaviour
 {
-    public Rigidbody target;
+    public Rigidbody[] targets;
+    private Rigidbody target;
 
     public float maxSpeed = 0.0f;
 
@@ -18,6 +19,10 @@ public class Speedometer : MonoBehaviour
     public RectTransform arrow;
     public float speed;
 
+    private void Start()
+    {
+        target = targets[PlayerName.playerSelection];
+    }
     private void Update()
     {
         speed = target.velocity.magnitude * 3.6f;
