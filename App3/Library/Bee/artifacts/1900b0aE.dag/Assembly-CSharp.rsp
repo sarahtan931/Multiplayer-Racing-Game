@@ -441,6 +441,7 @@
 "Assets/Scripts/ScoreboardSaveData.cs"
 "Assets/Scripts/SelectionView.cs"
 "Assets/Scripts/Speedometer.cs"
+"Assets/Scripts/SpeedometerMutiplayer.cs"
 "Assets/Scripts/TimerScript.cs"
 "Assets/Scripts/TwoPlayer.cs"
 -langversion:9.0
