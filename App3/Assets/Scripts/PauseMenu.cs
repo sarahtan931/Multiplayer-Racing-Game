@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Scene = UnityEngine.SceneManagement.Scene;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -46,11 +48,16 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
-        player.transform.position = respawnPoint.transform.position;
-        player.transform.rotation = Quaternion.Euler(0f, 1f, 0f);
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
         carController.resetHealth();
         isPaused = false;
         //  audio.Play();
+    }
+
+    public void Home()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     void Pause()
