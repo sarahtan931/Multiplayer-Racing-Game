@@ -19,7 +19,8 @@
 <li/> Player 1 use the WASD keys to steer and the tab key to break.
 <li/> Player 2 use the up, left, right and down arrow to steer the car and the space arrow to break.
 <li/> This is a speed round, first player to complete all laps will win the round. 
-<img width="848" alt="Screenshot 2022-12-02 at 12 09 08 PM" src="https://user-images.githubusercontent.com/60834355/205347086-4c2d087b-0a63-4c1f-814d-32603e140aac.png">
+<img width="855" alt="Screenshot 2022-12-02 at 12 12 17 PM" src="https://user-images.githubusercontent.com/60834355/205347839-fb737131-bd53-4268-9aac-06c2dc91264b.png">
+
 
 <h4>Leaderboards</h4>
 <li/> View your Level 1 and Level 2 highscores on the leaderboards provided. 
