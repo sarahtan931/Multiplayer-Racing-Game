@@ -418,6 +418,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CameraControllerMultiplayer.cs"
 "Assets/Scripts/CarController.cs"
+"Assets/Scripts/CarControllerMultiplayer.cs"
 "Assets/Scripts/CarSelection.cs"
 "Assets/Scripts/CharacterController.cs"
 "Assets/Scripts/CharacterControllerMultiplayer.cs"

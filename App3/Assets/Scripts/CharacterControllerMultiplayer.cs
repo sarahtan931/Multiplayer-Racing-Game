@@ -12,7 +12,6 @@ public class CharacterControllerMultiplayer : MonoBehaviour
     public GameObject gold2;
     void Start()
     {
-        Debug.Log(TwoPlayer.playerOneSelection + TwoPlayer.playerTwoSelection);
         if (TwoPlayer.playerOneSelection == 0)
         {
             silver1.SetActive(false);

@@ -70,7 +70,7 @@ public class CarController : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         GetInput();
         HandleMotor();
@@ -80,50 +80,9 @@ public class CarController : MonoBehaviour
 
     private void GetInput()
     {
-        horizontalInput = 0;
-        verticalInput = 0;
-        if (player.name == "Player" || player.name == "Player 1" || player.name == "Player 2")
-        {
-            if (Input.GetKey(KeyCode.A))
-            {
-                horizontalInput = -1;
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                horizontalInput = 1;
-            }
-            if (Input.GetKey(KeyCode.W))
-            {
-                verticalInput = 1;
-            }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                verticalInput = -1;
-            }
-            isBreaking = Input.GetKey(KeyCode.Tab);
-        } else
-        {
-
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                horizontalInput = -1;
-            }
-            else if (Input.GetKey(KeyCode.RightArrow))
-            {
-                horizontalInput = 1;
-            }
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                verticalInput = 1;
-            }
-            else if (Input.GetKey(KeyCode.UpArrow))
-            {
-                verticalInput = -1;
-            }
-            isBreaking = Input.GetKey(KeyCode.Space);
-           
-        }
-         
+         horizontalInput = Input.GetAxis(HORIZONTAL);
+         verticalInput = Input.GetAxis(VERTICAL);
+         isBreaking = Input.GetKey(KeyCode.Space);    
     }
 
     private void HandleMotor()
