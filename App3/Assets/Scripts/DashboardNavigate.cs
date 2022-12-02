@@ -23,4 +23,12 @@ public class DashboardNavigate : MonoBehaviour
         TimerScript.timeRemaining = 180;
         SceneManager.LoadScene("OnePlayerMainMenu");
     }
+
+    public void MainMenu()
+    {
+
+        PlayerName.gameComplete = false;
+        TimerScript.timeRemaining = 180;
+        SceneManager.LoadScene("MainMenu");
+    }
 }
