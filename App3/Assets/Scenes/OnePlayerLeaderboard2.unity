@@ -449,8 +449,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: App2.Scoreboards.Scoreboard, Assembly-CSharp
+      - m_Target: {fileID: 1148244454}
+        m_TargetAssemblyTypeName: App3.Scoreboards.Scoreboard2, Assembly-CSharp
         m_MethodName: AddEntryFromUI
         m_Mode: 1
         m_Arguments:
@@ -1588,7 +1588,7 @@ MonoBehaviour:
   scoreBoardEntryObject: {fileID: 5230536835812645428, guid: 60ccf3a57b8b743ebac3cafeac368887,
     type: 3}
   LeaderboardInput: {fileID: 123509237}
-  submitButton: {fileID: 0}
+  submitButton: {fileID: 343147918}
 --- !u!114 &1148244455
 MonoBehaviour:
   m_ObjectHideFlags: 0
