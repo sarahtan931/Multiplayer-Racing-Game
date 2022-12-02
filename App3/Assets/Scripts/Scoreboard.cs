@@ -81,7 +81,7 @@ namespace App3.Scoreboards
 
             for (int i = 0; i < savedScores.highscores.Count; i++)
             {
-                if (scoreboardEntryData.entryScore < savedScores.highscores[i].entryScore)
+                if (scoreboardEntryData.entryScore > savedScores.highscores[i].entryScore)
                 {
                     savedScores.highscores.Insert(i, scoreboardEntryData);
                     scoreAdded = true;
@@ -90,7 +90,7 @@ namespace App3.Scoreboards
             }
 
 
-            if (!scoreAdded && savedScores.highscores.Count < maxScoreEntries)
+            if (!scoreAdded && savedScores.highscores.Count > maxScoreEntries)
             {
                 savedScores.highscores.Add(scoreboardEntryData);
             }
