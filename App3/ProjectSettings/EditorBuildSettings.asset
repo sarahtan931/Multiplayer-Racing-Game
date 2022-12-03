@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Store.unity
     guid: 40690c4438e36e648a3bf464c0426c90
   - enabled: 0
-    path: Assets/Scenes/TwoPlayerLeaderboard.unity
+    path: 
     guid: f826d3713a6c3c54995824b486043b86
   - enabled: 1
     path: Assets/Scenes/TwoPlayerMain.unity
@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerSelectionTwo.unity
     guid: f160d5c55695f86428953db951ee1297
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerWin.unity
+    guid: 7f9f4f507a0e50048a0df2a6116b3d9f
   m_configObjects: {}

@@ -9,6 +9,7 @@ public class TwoPlayer : MonoBehaviour
     public static int playerOneSelection = 1;
     public static int playerTwoSelection = 2;
     public static int levelSelection = 0;
+    public static bool firstPlayerWon = false;
 
 
     // Start is called before the first frame update

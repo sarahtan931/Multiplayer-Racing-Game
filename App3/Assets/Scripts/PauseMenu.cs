@@ -55,6 +55,16 @@ public class PauseMenu : MonoBehaviour
         //  audio.Play();
     }
 
+    public void OnePLayer()
+    {
+        SceneManager.LoadScene("OnePlayerMain");
+    }
+
+    public void TwoPlayer()
+    {
+        SceneManager.LoadScene("TwoPlayerMain");
+    }
+
     public void Home()
     {
         isPaused = false;
@@ -71,3 +81,4 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
     }
 }
+

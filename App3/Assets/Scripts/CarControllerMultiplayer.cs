@@ -86,7 +86,7 @@ public class CarControllerMultiplayer : MonoBehaviour
                 {
                     verticalInput = 1;
                 }
-                else if (Input.GetKey(KeyCode.UpArrow))
+                else if (Input.GetKey(KeyCode.DownArrow))
                 {
                     verticalInput = -1;
                 }

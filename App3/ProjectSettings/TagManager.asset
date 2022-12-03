@@ -15,6 +15,7 @@ TagManager:
   - TenCoin
   - FiveCoin
   - OneCoin
+  - finish
   layers:
   - Default
   - TransparentFX
